@@ -1,0 +1,157 @@
+.frame-gap { margin-top: clamp(10px,1.2vw,18px); margin-bottom: clamp(10px,1.2vw,18px); }
+.frame-gap-small { margin-top: clamp(14px,1.5vw,22px); margin-bottom: clamp(14px,1.5vw,22px); }
+@import "tailwindcss";
+
+:root {
+  /* Brand palette */
+  --gb-bg: #FFF5EF;
+  --gb-fg: #383838; /* body & default text */
+  --gb-title: #507D6C; /* title accent */
+}
+
+/* Global base */
+html, body {
+  height: 100%;
+}
+body {
+  background: var(--gb-bg);
+  color: var(--gb-fg);
+  font-family: var(--font-sans), system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  text-rendering: optimizeLegibility;
+}
+
+/* Title utility uses Oswald */
+.font-title {
+  font-family: var(--font-title), var(--font-sans), sans-serif;
+  color: var(--gb-title);
+}
+
+/* Inline link underline animation */
+a.link {
+  position: relative;
+  text-decoration: none;
+}
+a.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 0;
+  background: currentColor;
+  transition: width 220ms ease;
+}
+a.link:hover::after {
+  width: 100%;
+}
+
+/* Reveal-on-scroll base */
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 600ms ease, transform 600ms ease;
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Focus styles for accessibility, sharp look */
+:focus-visible {
+  outline: 2px solid var(--gb-fg);
+  outline-offset: 2px;
+}
+
+/* Sharp minimal button with sliding invert (bottom -> top) */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--gb-fg);
+  background-color: transparent;
+  color: var(--gb-fg);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.875rem;
+  line-height: 1;
+  position: relative;
+  background-image: linear-gradient(var(--gb-fg), var(--gb-fg));
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 0%;
+  transition: background-size 300ms ease-in-out, color 300ms ease-in-out, filter 150ms ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  background-size: 100% 100%;
+  color: var(--gb-bg);
+}
+.btn:active {
+  filter: brightness(0.95);
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Mobile drawer panel subtle left shadow */
+.mobile-panel {
+  box-shadow: -18px 0 28px rgba(56, 56, 56, 0.08);
+}
+
+/* Primary button variant for donation emphasis */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--gb-fg);
+  background-color: var(--gb-fg);
+  color: var(--gb-bg);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.875rem;
+  line-height: 1;
+  position: relative;
+  background-image: linear-gradient(var(--gb-bg), var(--gb-bg));
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100% 0%;
+  transition: background-size 300ms ease-in-out, color 300ms ease-in-out, filter 150ms ease-in-out;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-size: 100% 100%;
+  color: var(--gb-fg);
+}
+.btn-primary:active { filter: brightness(0.95); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Corner frame accent (L-shapes top-left & bottom-right) */
+/* Proportional green corner frame (top-left & bottom-right) */
+.corner-frame { position: relative; }
+.corner-frame::before,
+.corner-frame::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  --cf-leg: clamp(36px, 12vw, 96px); /* leg length */
+  --cf-thickness: clamp(2px, 0.45vw, 5px);
+  --cf-gap: clamp(14px, 1.8vw, 34px); /* constant outward gap from edges */
+  --cf-color: var(--gb-title);
+  width: var(--cf-leg);
+  height: var(--cf-leg);
+}
+.corner-frame::before { top: calc(-1 * var(--cf-gap)); left: calc(-1 * var(--cf-gap)); border-top: var(--cf-thickness) solid var(--cf-color); border-left: var(--cf-thickness) solid var(--cf-color); }
+.corner-frame::after { bottom: calc(-1 * var(--cf-gap)); right: calc(-1 * var(--cf-gap)); border-bottom: var(--cf-thickness) solid var(--cf-color); border-right: var(--cf-thickness) solid var(--cf-color); }
+/* Tighter variant (apply class 'corner-frame-tight' on small cramped images) */
+.corner-frame-tight::before,
+.corner-frame-tight::after { --cf-leg: clamp(22px, 8vw, 56px); --cf-gap: clamp(6px,0.9vw,14px); --cf-thickness: clamp(2px,0.35vw,4px); }
+
+/* Remove decorative corners entirely for tight (small) variant */
+.corner-frame-tight::before,
+.corner-frame-tight::after { content: none !important; width: 0; height: 0; border: 0; }
