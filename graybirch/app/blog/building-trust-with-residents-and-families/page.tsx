@@ -35,7 +35,11 @@ export default function Post() {
       <Reveal delay={500}><p className="mt-4 leading-relaxed">Craft a consistent short script: <em>"We’re using discreet sensing to help staff respond faster if someone needs help — without recording identifiable video."</em> Alignment across staff prevents mixed signals.</p></Reveal>
 
       <Reveal delay={540}><h2 className="mt-12 font-title text-2xl tracking-tight">Handling Concerns</h2></Reveal>
-      <Reveal delay={580}><p className="mt-4 leading-relaxed">Validate emotion first (\"I understand why privacy matters to you\"). Provide concrete guardrails: no resale, minimal retention, access controls. Offer an escalation or opt-out path where feasible.</p></Reveal>
+      <Reveal delay={580}>
+        <p className="mt-4 leading-relaxed">
+          Validate emotion first ("I understand why privacy matters to you"). Provide concrete guardrails: no resale, minimal retention, access controls. Offer an escalation or opt-out path where feasible.
+        </p>
+      </Reveal>
 
       <Reveal delay={620}><h2 className="mt-12 font-title text-2xl tracking-tight">Embedding Ongoing Trust</h2></Reveal>
       <Reveal delay={660}><p className="mt-4 leading-relaxed">Maintain a living FAQ, publish periodic anonymized outcome snapshots, and invite resident council feedback. Trust is maintained via rhythm, not one-time presentations.</p></Reveal>

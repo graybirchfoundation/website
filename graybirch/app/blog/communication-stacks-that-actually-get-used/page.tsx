@@ -24,7 +24,7 @@ export default function Post() {
       <Reveal delay={380}><ul className="mt-4 space-y-4 list-disc pl-6 leading-relaxed">
         <li><strong>Lowest Friction Wins:</strong> SMS or voice may outperform feature-rich portals for time-critical updates.</li>
         <li><strong>Single Source of Escalation:</strong> Staff should never wonder which app contains the live alert.</li>
-        <li><strong>Role-Aware Delivery:</strong> Right channel, right responsibility — avoid \"notify everyone\" blasts.</li>
+  <li><strong>Role-Aware Delivery:</strong> Right channel, right responsibility — avoid "notify everyone" blasts.</li>
         <li><strong>Asynchronous by Default:</strong> Reduce synchronous interruptions for non-urgent items.</li>
         <li><strong>Auditability:</strong> Critical decisions and handoffs should generate a traceable record.</li>
       </ul></Reveal>
@@ -38,7 +38,11 @@ export default function Post() {
       <Reveal delay={580}><p className="mt-4 leading-relaxed">Track active weekly contributors per role, response latency to urgent messages, % of families engaged, and time spent re-entering or duplicating information. High feature usage with low outcome improvement is a warning sign.</p></Reveal>
 
       <Reveal delay={620}><h2 className="mt-12 font-title text-2xl tracking-tight">Decommissioning & Consolidation</h2></Reveal>
-      <Reveal delay={660}><p className="mt-4 leading-relaxed">Sunset channels that no longer deliver unique value. Communicate transition timelines clearly and provide a single \"what lives where\" reference for staff.</p></Reveal>
+      <Reveal delay={660}>
+        <p className="mt-4 leading-relaxed">
+          Sunset channels that no longer deliver unique value. Communicate transition timelines clearly and provide a single "what lives where" reference for staff.
+        </p>
+      </Reveal>
 
       <Reveal delay={700}><h2 className="mt-12 font-title text-2xl tracking-tight">Sustaining Clarity</h2></Reveal>
       <Reveal delay={740}><p className="mt-4 leading-relaxed">Revisit the stack quarterly against operational pain points. Technology should reduce fragmentation, not rebrand it. The outcome: calmer shifts and families that feel consistently connected.</p></Reveal>
