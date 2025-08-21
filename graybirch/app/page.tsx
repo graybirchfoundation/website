@@ -12,7 +12,7 @@ export default function Home() {
             <div>
               <Reveal>
                 <h1 className="font-title text-5xl md:text-6xl leading-[1.05] tracking-tight">
-                  Modern Solutions for Safer and Stronger Senior Care
+                  Smarter Care for Healthier Aging
                 </h1>
               </Reveal>
               <Reveal delay={120}>
@@ -46,58 +46,75 @@ export default function Home() {
           </Reveal>
           <Reveal delay={120}>
             <p className="mt-4 max-w-3xl leading-relaxed">
-              We partner with assisted Residential Senior Care Communities to make
-              modern, human-centered tech accessible for the people who need it
-              most.
+              We partner with assisted residential senior care communities to make modern, human-centered technology accessible for those who need it most.
             </p>
           </Reveal>
-          <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-14">
-            <Reveal>
-              <div>
-                <h3 className="font-title text-2xl tracking-tight">
-                  Communication
-                </h3>
-                <div className="mt-4 aspect-[5/3] max-w-sm relative corner-frame corner-frame-tight frame-gap-small">
-                  <Image src="/images/2.jpg" alt="Senior on a video call with family using simple communication setup" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
+          <Reveal delay={180}>
+            <h3 className="font-title text-2xl tracking-tight mt-10">Helping Seniors</h3>
+          </Reveal>
+          <Reveal delay={200}>
+            <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-14">
+              <Reveal>
+                <div>
+                  <h3 className="font-title text-2xl tracking-tight">Communication</h3>
+                  <div className="mt-4 aspect-[5/3] max-w-sm relative corner-frame corner-frame-tight frame-gap-small">
+                    <Image src="/images/2.jpg" alt="Senior on a video call with family using simple communication setup" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
+                  </div>
+                  <p className="mt-3 leading-relaxed">
+                    We help care communities choose and access simple, accessible tools like video calling systems and voice assistants, enabling seniors to stay connected with loved ones and caregivers.
+                  </p>
                 </div>
-                <p className="mt-3 leading-relaxed">
-                  We help care communities choose and access simple, accessible
-                  tools like video calling systems and voice assistants, enabling
-                  seniors to stay connected with loved ones and caregivers.
-                </p>
-              </div>
-            </Reveal>
-            <Reveal delay={120}>
-              <div>
-                <h3 className="font-title text-2xl tracking-tight">
-                  Fall Detection/Prevention
-                </h3>
-                <div className="mt-4 aspect-[5/3] max-w-sm relative corner-frame corner-frame-tight frame-gap-small">
-                  <Image src="/images/3.jpg" alt="Discreet fall detection sensor installed in a resident room" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
+              </Reveal>
+              <Reveal delay={120}>
+                <div>
+                  <h3 className="font-title text-2xl tracking-tight">Fall Detection/Prevention</h3>
+                  <div className="mt-4 aspect-[5/3] max-w-sm relative corner-frame corner-frame-tight frame-gap-small">
+                    <Image src="/images/3.jpg" alt="Discreet fall detection sensor installed in a resident room" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
+                  </div>
+                  <p className="mt-3 leading-relaxed">
+                    We test and vet fall detection tools, and then work with senior care providers to adopt the best solutions affordably.
+                  </p>
                 </div>
-                <p className="mt-3 leading-relaxed">
-                  We test and vet fall detection tools, and then work with senior
-                  care providers to adopt the best solutions affordably.
-                </p>
-              </div>
-            </Reveal>
-            <Reveal delay={240}>
-              <div>
-                <h3 className="font-title text-2xl tracking-tight">
-                  Engagement/Wellbeing
-                </h3>
-                <div className="mt-4 aspect-[5/3] max-w-sm relative corner-frame corner-frame-tight frame-gap-small">
-                  <Image src="/images/4.jpg" alt="Group of older adults participating in a creative engagement activity" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
+              </Reveal>
+              <Reveal delay={240}>
+                <div>
+                  <h3 className="font-title text-2xl tracking-tight">Engagement/Wellbeing</h3>
+                  <div className="mt-4 aspect-[5/3] max-w-sm relative corner-frame corner-frame-tight frame-gap-small">
+                    <Image src="/images/4.jpg" alt="Group of older adults participating in a creative engagement activity" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
+                  </div>
+                  <p className="mt-3 leading-relaxed">
+                    We evaluate and recommend technology that supports mental stimulation, social interaction, and emotional wellness — helping seniors feel seen, valued, and active.
+                  </p>
                 </div>
-                <p className="mt-3 leading-relaxed">
-                  We evaluate and recommend technology that supports mental
-                  stimulation, social interaction, and emotional wellness —
-                  helping seniors feel seen, valued, and active.
-                </p>
-              </div>
-            </Reveal>
-          </div>
+              </Reveal>
+            </div>
+          </Reveal>
           <Reveal delay={320}>
+            <h3 className="font-title text-2xl tracking-tight mt-12">Helping Senior Care Facilities</h3>
+          </Reveal>
+          <Reveal delay={340}>
+            <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-14">
+              <div className="border-t border-black/20 pt-6">
+                <h3 className="font-title text-2xl tracking-tight">People</h3>
+                <div className="mt-4 aspect-[5/3] max-w-sm relative corner-frame corner-frame-tight frame-gap-small">
+                  <Image src="/images/people.jpg" alt="Staff training session with senior care staff" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
+                </div>
+                <p className="mt-3 leading-relaxed">
+                  We support staffing solutions, staff retention initiatives, and comprehensive training programs to empower caregivers and ensure high-quality care.
+                </p>
+              </div>
+              <div className="border-t border-black/20 pt-6">
+                <h3 className="font-title text-2xl tracking-tight">Facilities</h3>
+                <div className="mt-4 aspect-[5/3] max-w-sm relative corner-frame corner-frame-tight frame-gap-small">
+                  <Image src="/images/facilities.jpg" alt="Security camera monitoring a senior care facility" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
+                </div>
+                <p className="mt-3 leading-relaxed">
+                  We help implement security, surveillance, payroll, and operational systems that keep facilities running safely and efficiently.
+                </p>
+              </div>
+            </div>
+          </Reveal>
+          <Reveal delay={380}>
             <div className="mt-8">
               <Link href="/what-we-do" className="link">
                 Learn More →
@@ -154,9 +171,6 @@ export default function Home() {
                 <p className="mt-4 leading-relaxed max-w-xl">
                   We partner with vendors, test their technologies in real care environments, and identify the most effective tools for fall detection, communication, and engagement. Once vetted, we help senior care communities access these solutions at discounted rates and provide hands-on training so staff and residents can use them with confidence.
                 </p>
-                <div className="mt-6">
-                  <Link href="/what-we-do#partners" className="link">Partners →</Link>
-                </div>
               </div>
             </Reveal>
             <Reveal delay={160}>

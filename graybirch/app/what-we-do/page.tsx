@@ -17,7 +17,8 @@ export default function WhatWeDoPage() {
 
       {/* Focus Areas */}
       <Reveal delay={180}>
-  <div className="mt-10 grid gap-14 md:grid-cols-3">
+        <h2 className="font-title text-2xl mt-10 tracking-tight">Helping Seniors</h2>
+        <div className="mt-6 grid gap-14 md:grid-cols-3">
           <div className="border-t border-black/20 pt-6">
             <h3 className="font-title text-2xl tracking-tight">Communication</h3>
             <div className="mt-4 aspect-[4/3] relative corner-frame corner-frame-tight frame-gap-small">
@@ -43,6 +44,30 @@ export default function WhatWeDoPage() {
             </div>
             <p className="mt-3 leading-relaxed">
               We evaluate and recommend technology that supports mental stimulation, social interaction, and emotional wellness — helping seniors feel seen, valued, and active.
+            </p>
+          </div>
+        </div>
+      </Reveal>
+
+      <Reveal delay={300}>
+  <h2 className="font-title text-2xl mt-12 tracking-tight">Helping Senior Care Facilities</h2>
+        <div className="mt-6 grid gap-14 md:grid-cols-2">
+          <div className="border-t border-black/20 pt-6">
+            <h3 className="font-title text-2xl tracking-tight">People</h3>
+            <div className="mt-4 aspect-[4/3] relative corner-frame corner-frame-tight frame-gap-small">
+              <Image src="/images/people.jpg" alt="Staff training session with senior care staff" fill className="object-cover" sizes="(min-width:768px) 20vw, 100vw" />
+            </div>
+            <p className="mt-3 leading-relaxed">
+              We support staffing solutions, staff retention initiatives, and comprehensive training programs to empower caregivers and ensure high-quality care.
+            </p>
+          </div>
+          <div className="border-t border-black/20 pt-6">
+            <h3 className="font-title text-2xl tracking-tight">Facilities</h3>
+            <div className="mt-4 aspect-[4/3] relative corner-frame corner-frame-tight frame-gap-small">
+              <Image src="/images/facilities.jpg" alt="Security camera monitoring a senior care facility" fill className="object-cover" sizes="(min-width:768px) 20vw, 100vw" />
+            </div>
+            <p className="mt-3 leading-relaxed">
+              We help implement security, surveillance, payroll, and operational systems that keep facilities running safely and efficiently.
             </p>
           </div>
         </div>

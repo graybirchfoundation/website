@@ -10,7 +10,6 @@ export default function Article() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
       <Reveal><h1 className="font-title text-4xl md:text-5xl tracking-tight">3 Technologies Every Senior Care Home Should Consider Right Now</h1></Reveal>
-      <Reveal delay={120}><p className="mt-4 text-sm uppercase tracking-wide">By Ayaan Grover</p></Reveal>
       <Reveal delay={200}>
         <div className="mt-8 border-t border-black/20 pt-6">
           <div className="aspect-[16/9] w-full relative"><Image src="/images/14.jpg" alt="Technology enabling safer senior care" fill className="object-cover" sizes="100vw" /></div>

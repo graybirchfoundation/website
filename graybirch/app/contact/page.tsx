@@ -39,14 +39,6 @@ export default function ContactPage() {
 
       {/* Removed Newsletter section */}
 
-      <Reveal delay={300}>
-        <div className="mt-12 border-t border-black/20 pt-6 text-sm">
-          <div className="font-title uppercase tracking-wide">Follow Us</div>
-          <div className="mt-3 flex flex-wrap gap-4">
-            <a className="link" href="https://github.com/graybirchfoundation" aria-label="GitHub">GitHub</a>
-          </div>
-        </div>
-      </Reveal>
     </div>
   );
 }
