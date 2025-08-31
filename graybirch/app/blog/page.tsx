@@ -31,7 +31,7 @@ const posts: PostMeta[] = [
   },
   {
     slug: "closing-the-gap-how-technology-strengthens-family-care-community-connection",
-    title: "Closing the Gap: How Technology Strengthens the Family–Care Community Connection",
+    title: "Closing the Gap: How Technology Strengthens the Family Care Community Connection",
     excerpt: "Highlighting tools that keep families updated, engaged, and reassured about their loved one’s well-being.",
     image: "/images/family-care.jpg",
   },

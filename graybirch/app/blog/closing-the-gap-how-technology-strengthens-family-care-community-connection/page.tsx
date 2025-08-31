@@ -15,7 +15,7 @@ export default function FamilyConnectionArticle() {
       <Reveal delay={140}><p className="mt-6 text-lg leading-relaxed max-w-2xl">Highlighting tools that keep families updated, engaged, and reassured about their loved one’s well-being.</p></Reveal>
       <Reveal delay={180}><p className="mt-4 text-sm text-black/60">7 min read</p></Reveal>
 
-      <Reveal delay={220}><div className="mt-10 aspect-[16/9] relative"><Image src="/images/closing-gap-family-care.jpg" alt="Family viewing care updates on tablet" fill className="object-cover" sizes="100vw" /></div></Reveal>
+      <Reveal delay={220}><div className="mt-10 aspect-[16/9] relative"><Image src="/images/family-care.jpg" alt="Family viewing care updates on tablet" fill className="object-cover" sizes="100vw" /></div></Reveal>
 
       <Reveal delay={260}><h2 className="mt-14 font-title text-2xl tracking-tight">1. Real-Time Updates and Notifications</h2></Reveal>
       <Reveal delay={300}><p className="mt-4 leading-relaxed">Systems that push timely notifications—whether a medication reminder, a wellness check summary, or a mood update—help families stay informed without constant back-and-forth. Customizable digests and alert thresholds ensure messages remain meaningful, not overwhelming.</p></Reveal>

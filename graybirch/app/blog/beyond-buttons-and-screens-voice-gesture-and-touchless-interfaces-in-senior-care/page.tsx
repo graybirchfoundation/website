@@ -15,7 +15,7 @@ export default function TouchlessInterfacesArticle() {
       <Reveal delay={140}><p className="mt-6 text-lg leading-relaxed max-w-2xl">Exploring intuitive technologies that lower barriers for seniors who may struggle with traditional devices.</p></Reveal>
       <Reveal delay={180}><p className="mt-4 text-sm text-black/60">4 min read</p></Reveal>
 
-      <Reveal delay={220}><div className="mt-10 aspect-[16/9] relative"><Image src="/images/voice-gesture-touchless.jpg" alt="Senior interacting with touchless interface" fill className="object-cover" sizes="100vw" /></div></Reveal>
+      <Reveal delay={220}><div className="mt-10 aspect-[16/9] relative"><Image src="/images/touchless.jpg" alt="Senior interacting with touchless interface" fill className="object-cover" sizes="100vw" /></div></Reveal>
 
       <Reveal delay={260}><h2 className="mt-14 font-title text-2xl tracking-tight">1. Voice as a Natural Interface</h2></Reveal>
       <Reveal delay={300}><p className="mt-4 leading-relaxed">Speech interfaces leverage a modality most residents are comfortable with—spoken language. By designing concise, context-aware prompts and allowing for simple confirmations, voice interfaces can handle tasks like making calls, controlling lights, or sending alerts without requiring complex menus or buttons.</p></Reveal>
