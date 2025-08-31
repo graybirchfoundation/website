@@ -21,12 +21,9 @@ const resendKey = process.env.RESEND_API_KEY;
 const resend = resendKey ? new Resend(resendKey) : null;
 
 export async function POST(req: NextRequest) {
-  // Setup logging
-  const logDir = path.join(process.cwd(), 'logs');
+  // Simple console logging instead of file writes
   async function writeLog(entry: any) {
-    await fs.mkdir(logDir, { recursive: true });
-    const file = path.join(logDir, 'contact_log.jsonl');
-    await fs.appendFile(file, JSON.stringify(entry) + '\n');
+    console.log('[contact]', entry);
   }
   let body: unknown;
   try {
