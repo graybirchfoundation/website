@@ -46,7 +46,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={120}>
             <p className="mt-4 max-w-3xl leading-relaxed">
-              We partner with assisted residential senior care communities to make modern, human-centered technology accessible for those who need it most.
+              We partner with senior care organizations of every type - from independent living and assisted living to memory care and skilled nursing, to make modern, human-centered technology accessible for those who need it most.
             </p>
           </Reveal>
           <Reveal delay={180}>
@@ -109,7 +109,7 @@ export default function Home() {
                   <Image src="/images/facilities.jpg" alt="Security camera monitoring a senior care facility" fill className="object-cover" sizes="(min-width: 768px) 30vw, 100vw" />
                 </div>
                 <p className="mt-3 leading-relaxed">
-                  We help implement security, surveillance, payroll, and operational systems that keep facilities running safely and efficiently.
+                  We help select security, surveillance, payroll, and operational systems that keep facilities running safely and efficiently.
                 </p>
               </div>
             </div>
@@ -167,9 +167,9 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-stretch">
             <Reveal>
               <div className="order-2 md:order-1">
-                <h2 className="font-title text-3xl md:text-4xl tracking-tight">How We’ve Helped</h2>
+                <h2 className="font-title text-3xl md:text-4xl tracking-tight">How We Help</h2>
                 <p className="mt-4 leading-relaxed max-w-xl">
-                  We partner with vendors, test their technologies in real care environments, and identify the most effective tools for fall detection, communication, and engagement. Once vetted, we help senior care communities access these solutions at discounted rates and provide hands-on training so staff and residents can use them with confidence.
+                  We partner with vendors, test their technologies, and identify the most effective tools for seniors and the organizations that support them. Once vetted, we help senior care communities access these solutions at discounted rates and enable hands-on training so staff and residents can use them with confidence.
                 </p>
               </div>
             </Reveal>

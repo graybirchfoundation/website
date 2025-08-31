@@ -47,7 +47,7 @@ export default function AboutPage() {
       <Reveal delay={280}>
         <div className="mt-16 md:mt-20 border-t border-black/20 pt-6">
           <h2 className="font-title text-2xl tracking-tight">What We Believe</h2>
-          <ul className="mt-3 grid gap-3">
+          <ul className="mt-3 grid gap-3 list-disc">
             <li>Every senior deserves access to life-enhancing technology.</li>
             <li>Technology should be a tool for connection, not isolation.</li>
             <li>Change happens when communities, caregivers, and creators work together.</li>
