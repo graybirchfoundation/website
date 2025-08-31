@@ -6,8 +6,8 @@ import { z } from "zod";
 import { verifyToken } from "@/lib/contactSecurity";
 
 // Simple in-memory rate limiting: 5 submissions per hour per IP
-const WINDOW_MS = 1000 * 60 * 60; // 1 hour window
-const MAX_PER_WINDOW = 5;
+const WINDOW_MS = 2000 * 60 * 60; // 1 hour window
+const MAX_PER_WINDOW = 3;
 const ipHits: Record<string, { ts: number; count: number }> = {};
 
 const schema = z.object({

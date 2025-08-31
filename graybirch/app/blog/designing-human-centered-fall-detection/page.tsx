@@ -13,7 +13,7 @@ export default function Post() {
       <Reveal><p className="text-xs tracking-wide uppercase font-semibold text-black/60">Article</p></Reveal>
       <Reveal delay={90}><h1 className="font-title text-4xl md:text-5xl tracking-tight leading-tight">Designing Human-Centered Fall Detection</h1></Reveal>
       <Reveal delay={140}><p className="mt-6 text-lg leading-relaxed max-w-2xl">How to evaluate sensing systems for accuracy, dignity, and real-world deployment in residential care settings — and avoid the common pitfalls that lead to staff distrust and resident discomfort.</p></Reveal>
-  <Reveal delay={180}><p className="mt-4 text-sm text-black/60">7 min read</p></Reveal>
+  <Reveal delay={180}><p className="mt-4 text-sm text-black/60">5 min read</p></Reveal>
 
   <Reveal delay={220}><div className="mt-10 aspect-[16/9] relative"><Image src="/images/15.jpg" alt="Discreet fall detection sensor installed in a resident room" fill className="object-cover" sizes="100vw" /></div></Reveal>
 
@@ -44,8 +44,6 @@ export default function Post() {
           The best deployments feel boring: stable coverage, concise alerts, staff describing it as "helpful background automation" rather than a distraction. Residents and families should barely notice its presence, yet operators can surface metrics like time-to-assist improvements.
         </p>
       </Reveal>
-
-  <Reveal delay={580}><div className="mt-12 aspect-[4/3] relative"><Image src="/images/19.jpg" alt="Care team reviewing fall detection alert metrics" fill className="object-cover" sizes="100vw" /></div></Reveal>
 
       <Reveal delay={620}><h2 className="mt-12 font-title text-2xl tracking-tight">Key Implementation Pitfalls</h2></Reveal>
       <Reveal delay={660}><p className="mt-4 leading-relaxed">Common failure modes include skipping baseline data collection, overfitting to staged demos, ignoring shift-level workflow nuance, and deferring staff training until after alerts start firing. Treat the rollout like a joint operations + technology project, not a vendor handoff.</p></Reveal>

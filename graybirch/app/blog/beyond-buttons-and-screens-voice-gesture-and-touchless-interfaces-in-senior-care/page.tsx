@@ -13,7 +13,7 @@ export default function TouchlessInterfacesArticle() {
       <Reveal><p className="text-xs tracking-wide uppercase font-semibold text-black/60">Article</p></Reveal>
       <Reveal delay={90}><h1 className="font-title text-4xl md:text-5xl tracking-tight">Beyond Buttons and Screens: Voice, Gesture, and Touchless Interfaces in Senior Care</h1></Reveal>
       <Reveal delay={140}><p className="mt-6 text-lg leading-relaxed max-w-2xl">Exploring intuitive technologies that lower barriers for seniors who may struggle with traditional devices.</p></Reveal>
-      <Reveal delay={180}><p className="mt-4 text-sm text-black/60">7 min read</p></Reveal>
+      <Reveal delay={180}><p className="mt-4 text-sm text-black/60">4 min read</p></Reveal>
 
       <Reveal delay={220}><div className="mt-10 aspect-[16/9] relative"><Image src="/images/voice-gesture-touchless.jpg" alt="Senior interacting with touchless interface" fill className="object-cover" sizes="100vw" /></div></Reveal>
 

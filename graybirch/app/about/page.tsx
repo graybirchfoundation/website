@@ -69,7 +69,6 @@ export default function AboutPage() {
       {/* CTA */}
       <Reveal delay={520}>
         <div className="mt-12 flex flex-wrap gap-4">
-          <Link href="/contact" className="btn">Get in Touch</Link>
           <Link href="/contact" className="btn-primary">Contact Us</Link>
         </div>
       </Reveal>

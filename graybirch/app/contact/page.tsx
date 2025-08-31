@@ -28,7 +28,7 @@ export default function ContactPage() {
             <div className="space-y-6 text-base md:text-xl leading-relaxed">
               <div>
                 <div className="font-title uppercase tracking-wide text-2xl md:text-3xl">General Inquiries</div>
-                <div className="mt-5">Email:<br /><span className="font-medium"><a href="mailto:inquiries@graybirchfoundation.org">inquiries@graybirchfoundation.org</a></span></div>
+                <div className="mt-5">Email:<br /><span className="font-medium"><a href="mailto:inquiries@graybirchfoundation.org">contact@graybirchfoundation.org</a></span></div>
                 <div className="mt-4">Phone:<br /><span className="font-medium"><a href="tel:4086737152">(408) 673-7152</a></span></div>
                 <div className="mt-4">Address:<br /><span className="font-medium not-italic">20660 Stevens Creek Blvd #263<br />Cupertino, CA 95014</span></div>
               </div>

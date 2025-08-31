@@ -21,19 +21,19 @@ const posts: PostMeta[] = [
     slug: "the-future-of-senior-care-why-technology-needs-to-feel-human",
     title: "The Future of Senior Care: Why Technology Needs to Feel Human",
     excerpt: "A look at how empathetic design can transform tech from a burden into a lifeline for residents and caregivers.",
-    image: "/images/future-feel-human.jpg",
+    image: "/images/feel-human.jpg",
   },
   {
     slug: "beyond-buttons-and-screens-voice-gesture-and-touchless-interfaces-in-senior-care",
     title: "Beyond Buttons and Screens: Voice, Gesture, and Touchless Interfaces in Senior Care",
     excerpt: "Exploring intuitive technologies that lower barriers for seniors who may struggle with traditional devices.",
-    image: "/images/voice-gesture-touchless.jpg",
+    image: "/images/touchless.jpg",
   },
   {
     slug: "closing-the-gap-how-technology-strengthens-family-care-community-connection",
     title: "Closing the Gap: How Technology Strengthens the Family–Care Community Connection",
     excerpt: "Highlighting tools that keep families updated, engaged, and reassured about their loved one’s well-being.",
-    image: "/images/closing-gap-family-care.jpg",
+    image: "/images/family-care.jpg",
   },
 ];
 
