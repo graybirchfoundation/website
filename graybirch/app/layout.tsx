@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Oswald, Hanken_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 const titleFont = Oswald({
   weight: "500",
@@ -35,6 +36,7 @@ export default function RootLayout({
               <p className="opacity-70">All rights reserved.</p>
             </div>
           </footer>
+          <Analytics />
         </div>
       </body>
     </html>
