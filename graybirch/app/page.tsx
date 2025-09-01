@@ -8,21 +8,21 @@ export default function Home() {
       {/* Hero */}
       <section className="border-b border-black/20">
         <div className="mx-auto max-w-6xl px-6 py-24">
-          <div className="grid md:grid-cols-2 gap-16 items-stretch">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <Reveal>
-                <h1 className="font-title text-5xl md:text-6xl leading-[1.05] tracking-tight">
+                <h1 className="font-title text-6xl md:text-7xl leading-[1.05] tracking-tight">
                   Smarter Care for Healthier Aging
                 </h1>
               </Reveal>
               <Reveal delay={120}>
-                <p className="mt-6 max-w-xl text-lg leading-relaxed">
+                <p className="mt-8 max-w-xl text-xl leading-relaxed">
                   The Gray Birch Foundation helps senior care organizations adopt technologies that improve safety, communication, and quality of life for older adults.
                 </p>
               </Reveal>
               <Reveal delay={220}>
-                <div className="mt-10 flex gap-4">
-                  <Link href="/contact" className="btn-primary">Donate</Link>
+                <div className="mt-12 flex gap-4">
+                  <Link href="/contact" className="btn-primary">Contact Us</Link>
                   <Link href="/what-we-do" className="btn">See Our Work</Link>
                 </div>
               </Reveal>

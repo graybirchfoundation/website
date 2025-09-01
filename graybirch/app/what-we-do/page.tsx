@@ -101,7 +101,7 @@ export default function WhatWeDoPage() {
       {/* CTAs */}
       <Reveal delay={380}>
         <div className="mt-12 flex flex-wrap gap-4">
-          <Link href="/contact" className="btn-primary">Donate</Link>
+          <Link href="/contact" className="btn-primary">Contact Us</Link>
         </div>
       </Reveal>
 
