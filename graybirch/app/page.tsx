@@ -46,7 +46,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={120}>
             <p className="mt-4 max-w-3xl leading-relaxed">
-              We partner with senior care organizations of every type - from independent living and assisted living to memory care and skilled nursing, to make modern, human-centered technology accessible for those who need it most.
+              We partner with senior care organizations of every type - from independent living and assisted living to memory care and skilled nursing facilities to make modern, human-centered technology accessible to those who need it most.
             </p>
           </Reveal>
           <Reveal delay={180}>
