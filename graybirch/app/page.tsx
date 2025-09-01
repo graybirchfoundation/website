@@ -16,8 +16,8 @@ export default function Home() {
                 </h1>
               </Reveal>
               <Reveal delay={120}>
-                <p className="mt-8 max-w-xl text-xl leading-relaxed">
-                  The Gray Birch Foundation helps senior care organizations adopt technologies that improve safety, communication, and quality of life for older adults.
+                <p className="mt-6 max-w-xl text-xl leading-relaxed">
+                  The Gray Birch Foundation helps senior care organizations adopt technologies that improve safety, communication, and quality of life for older adults. Our approach is grounded in listening first—understanding the real challenges faced by older adults, families, and care providers. By centering their perspectives, we strive to reimagine aging as a stage of life defined by dignity, connection, and possibility.
                 </p>
               </Reveal>
               <Reveal delay={220}>
